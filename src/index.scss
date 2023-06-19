@@ -1,0 +1,86 @@
+@import "bootstrap/scss/bootstrap";
+
+@media only screen and (min-width: 1024px) {
+  .card-form,
+  .card-list {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .card-form,
+  .card-list {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 1640px) {
+  .card-form,
+  .card-list {
+    width: 40% !important;
+  }
+}
+
+.card-form,
+.card-list {
+  width: 65%;
+}
+
+@media only screen and (min-width: 321px){
+  .card-form {
+    .text-name, .text-amount {
+      width: 25%;
+    }
+
+    .input-name, .input-amount{
+      width: 75%;
+    }
+  }
+
+  .card-list{
+    .card-form,
+    .card-list {
+      width: 65%;
+    }
+
+    .user-name {
+      width: 30%;
+    }
+
+    .user-amount {
+      width: 55%;
+    }
+
+    .user-delete {
+      width: 15%;
+    }
+  }
+}
+
+@media only screen and (max-width: 321px){
+  .card-form {
+    .text-name, .text-amount {
+      width: 30%;
+    }
+
+    .input-name, .input-amount{
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 376px){
+  .card-list {
+    .user-name {
+      width: 40%;
+    }
+
+    .user-amount {
+      width: 40%
+    }
+
+    .user-delete {
+      width: 20%;
+    }
+  }
+}
